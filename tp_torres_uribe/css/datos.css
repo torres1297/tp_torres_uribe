@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+    padding: 170px;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-bottom: 15px;
+    border-bottom: rgb(221, 56, 56) solid 3px;
+}
+
+nav img
+{
+    height: 70px;
+    margin: 20px 30px;
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#pantalla
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+}
+
+.pelicula
+{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.poster
+{
+    margin: 0px 30px;
+    height: 80%;
+}
+
+.poster img
+{
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 10px 18px 18px 10px rgba(0,0,0,0.2);
+}
+
+.detalles > *
+{
+    margin: 10px 40px;
+    font-size: 20px;
+}
+
+.nombre
+{
+    color: rgb(221, 56, 56);
+    font-size: 50px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.tiempo i
+{
+    color: rgb(221, 56, 56);
+    font-size: 25px;
+    margin: 0px 10px;
+}
+.fecha, .tiempo{
+    padding-right: 40px;
+}
+
+.trailer{
+    transition: all .2s ease;
+}
+.trailer i{
+    color: rgb(221, 56, 56);
+    font-size: 60px;
+    margin: auto;
+}
+#video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 15px;
+    text-align: end;
+    border-radius: 10px;
+    background-color: black;
+    border: rgb(221, 56, 56) solid 3px;
+}
+#video button{
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(221, 56, 56);
+    background: none;
+    border: none;
+}
+
+#regresar{
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: rgb(221, 56, 56);
+}
+
+#regresar:hover{
+    color: white;
+    font-size: 43px;
+    border: none;
+}
+
+.cosa{
+    color: bisque;
+}
+

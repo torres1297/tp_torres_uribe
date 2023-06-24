@@ -1,0 +1,135 @@
+body
+{
+    padding: 0px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+    padding: 180px;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 10px;
+    
+}
+
+#inicio
+{
+    border: none;
+    background: none;
+    font-size: 40px;
+}
+#inicio i
+{
+ color: rgb(241, 36, 36);
+}
+
+#inicio i:hover
+{
+    border: none;
+    background: none;
+    font-size: 40px;
+    color: white;
+}
+
+#botonborrar
+{
+    padding-right: 40px;
+}
+
+#botonborrar button
+{
+    background: rgb(241, 36, 36);
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+}
+
+#botonborrar button:hover
+{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white ;
+}
+
+#misfavoritos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detalle
+{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#portada
+{
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    margin: 0px 30px;
+}
+
+#detallasos
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.nombre
+{
+    max-width: 180px;
+}
+
+.nombre a
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#borrador
+{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(221, 56, 56);
+}
+
+.logo
+{
+    width: 300px;
+    margin-inline: 37%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
